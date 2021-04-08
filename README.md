@@ -267,8 +267,8 @@ Predicts the class labels for samples in X.
 </h2>
 
 ```python
-class RandomForest(n_trees=10, max_depth=5, split_val_metric='mean', min_info_gain=0.0, split_node_criterion='gini', max_features=5, 
-                    bootstrap=True, n_cores=1)
+class RandomForest(n_trees=10, max_depth=5, split_val_metric='mean', min_info_gain=0.0, split_node_criterion='gini', 
+                    max_features=5, bootstrap=True, n_cores=1)
 ```
 
 This class implements the Random Forest Classifier.

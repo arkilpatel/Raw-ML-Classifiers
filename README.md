@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  <a href="https://github.com/arkilpatel/SVAMP/blob/main/LICENSE">
+  <a href="https://github.com/arkilpatel/Raw-ML-Classifiers/blob/main/LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-green">
   </a>
 </p>

@@ -121,6 +121,7 @@ This class implements the Decision Tree Classifier.
 </td>
 </tr>
 </table>
+
 ##### Methods:
 
 ```python
@@ -340,6 +341,7 @@ This class implements Adaboost for Multiclass Classification.
 </td>
 </tr>
 </table>
+
 ##### Methods:
 
 ```python

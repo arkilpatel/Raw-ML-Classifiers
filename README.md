@@ -54,6 +54,7 @@ This class implements Naïve Bayes with Gaussian and Multinomial types.
 </td>
 </tr>
 </table>
+
 ##### Methods:
 
 ```python

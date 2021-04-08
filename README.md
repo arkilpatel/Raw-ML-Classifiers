@@ -144,6 +144,7 @@ Build the Decision Tree according to the given data.
 </td>
 </tr>
 </table>
+
 ```python
 def predict_new(X)
 ```
@@ -219,6 +220,7 @@ Fit the model according to the given training data.
 </td>
 </tr>
 </table>
+
 ```python
 def predict_prob(X)
 ```
@@ -237,6 +239,7 @@ Returns probability estimates for all classes ordered by label of classes.
 </td>
 </tr>
 </table>
+
 ```python
 def predict(X)
 ```

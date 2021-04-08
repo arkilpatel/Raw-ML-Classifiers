@@ -29,7 +29,7 @@ The current repository includes 6 implementations of Models:
 
 ## Documentation:
 
-#### Naïve Bayes Classifier
+### Naïve Bayes Classifier
 
 <h2 align="center">
   <img align="center"  src="./images/naive_bayes.png" alt="..." width="350">
@@ -55,7 +55,7 @@ This class implements Naïve Bayes with Gaussian and Multinomial types.
 </tr>
 </table>
 
-##### Methods:
+#### Methods:
 
 ```python
 def fit(X, y)
@@ -98,7 +98,7 @@ Get the class predictions.
 
 
 
-#### Decision Tree
+### Decision Tree
 
 <h2 align="center">
   <img align="center"  src="./images/decision_tree.png" alt="..." width="300">
@@ -122,7 +122,7 @@ This class implements the Decision Tree Classifier.
 </tr>
 </table>
 
-##### Methods:
+#### Methods:
 
 ```python
 def build_tree(X, y, sample_weights)
@@ -164,7 +164,7 @@ Get the class predictions.
 </table>
 
 
-#### Logistic Regression
+### Logistic Regression
 
 <h2 align="center">
   <img align="center"  src="./images/lr.jpg" alt="..." width="350">
@@ -198,7 +198,7 @@ This class implements the Logistic Regression Classifier with L1 and L2 regulari
 </tr>
 </table>
 
-##### Methods:
+#### Methods:
 
 ```python
 def fit(X, y)
@@ -257,7 +257,7 @@ Predicts the class labels for samples in X.
 </table>
 
 
-#### Random Forest
+### Random Forest
 
 <h2 align="center">
   <img align="center"  src="./images/rf.png" alt="..." width="350">
@@ -284,7 +284,7 @@ This class implements the Random Forest Classifier.
 </tr>
 </table>
 
-##### Methods:
+#### Methods:
 
 ```python
 def fit_predict(X_train, y_train, X_test)
@@ -309,7 +309,7 @@ Fits the model according to the given training data and predicts the class label
 
 
 
-#### Adaboost
+### Adaboost
 
 <h2 align="center">
   <img align="center"  src="./images/adaboost.png" alt="..." width="350">
@@ -342,7 +342,7 @@ This class implements Adaboost for Multiclass Classification.
 </tr>
 </table>
 
-##### Methods:
+#### Methods:
 
 ```python
 def fit(X, y)
@@ -384,7 +384,7 @@ Predicts the class labels for samples in X.
 </table>
 
 
-#### Stacking
+### Stacking
 
 <h2 align="center">
   <img align="center"  src="./images/stacking.png" alt="..." width="450">
@@ -404,7 +404,7 @@ Second element of each tuple is how many times it is to be considered.</td>
 </tr>
 </table>
 
-##### Methods:
+#### Methods:
 
 ```python
 def fit_pred(X_train, X_test, y_train)

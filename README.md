@@ -171,7 +171,8 @@ Get the class predictions.
 </h2>
 
 ```python
-class LogisticRegression(regulariser = 'L2', lamda = 0.0, num_steps = 100000, learning_rate = 0.1, initial_wts = None, verbose=False)
+class LogisticRegression(regulariser = 'L2', lamda = 0.0, num_steps = 100000, learning_rate = 0.1, initial_wts = None, 
+                          verbose=False)
 ```
 
 This class implements the Logistic Regression Classifier with L1 and L2 regularisation.
@@ -266,7 +267,8 @@ Predicts the class labels for samples in X.
 </h2>
 
 ```python
-class RandomForest(n_trees=10, max_depth=5, split_val_metric='mean', min_info_gain=0.0, 										split_node_criterion='gini', max_features=5, bootstrap=True, n_cores=1)
+class RandomForest(n_trees=10, max_depth=5, split_val_metric='mean', min_info_gain=0.0, split_node_criterion='gini', max_features=5, 
+                    bootstrap=True, n_cores=1)
 ```
 
 This class implements the Random Forest Classifier.
